@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable named "number" is created with a value of 1.
+// "number" is incremented by 1.
+// A condition is run to check the value of "number".
+//if "number" is greater than or equal to 2 "Yes" is logged to the console.
 
 //CODE
 /*
