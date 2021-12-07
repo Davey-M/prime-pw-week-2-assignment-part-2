@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// A variable named "number" is created with a value of 1.
-// "number" is incremented by 1.
-// A condition is run to check the value of "number".
-//if "number" is greater than or equal to 2 "Yes" is logged to the console.
+// A variable is created named "name" and assigned the string "Dave".
+// A condition is run to check if the "name" variable stores the value "Mary".
+// If the "name" variable has "Mary" assigned to it "Hi, Mary" will log to the console.
+// If the "name" variable does not have "Mary" assigned to it "How do you do" will be logged to the console.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable is created name "secret".
+// Another variable is created named "code" and the integer "123" is assigned to it.
+// A condition is run that checks if "code" equals "123", if it does, the value of "secret" is changed to "super".
+// Another condition is run that checks if "code" is greater than 250. If it is the value of "secret" is changed to "duper".
+// Finally "secret" is logged to the console.
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Three variables are created named "isStudent", "age", and "zip".
+// These variables are assigned the values: true, 34, and 55407 respectively.
+// A condition is run that checks four things:
+//  If "isStudent" is true and "zip" is greater than 80000 then "youre a student on the West Coast" is logged to the console.
+//  Otherwise if "isStudent" is false or "age" is greater than 30 then "What are you hobbies?" is logged to the console.
+//  Otherwise if "isStudent" is true then "Welcome to Prime!" is logged to the console.
+//  Finally if all of the above statements are false "How about the weather?" is logged to the console.
 
 //CODE
 /*
@@ -136,6 +140,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -147,7 +152,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,10 +165,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(age >= minAge) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
-
