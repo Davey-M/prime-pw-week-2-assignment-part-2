@@ -45,11 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// A variable is created name "secret".
+// A variable is created name secret.
 // Another variable is created named "code" and the integer "123" is assigned to it.
-// A condition is run that checks if "code" equals "123", if it does, the value of "secret" is changed to "super".
-// Another condition is run that checks if "code" is greater than 250. If it is the value of "secret" is changed to "duper".
-// Finally "secret" is logged to the console.
+// A condition is run that checks if "code" equals "123", if it does, the value of secret is changed to "super".
+// Another condition is run that checks if "code" is greater than 250. If it is the value of secret is changed to "duper".
+// Finally secret is logged to the console.
 
 //CODE
 /*
@@ -134,8 +134,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
