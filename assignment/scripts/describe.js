@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // Another variable is created named "code" and the integer "123" is assigned to it.
 // A condition is run that checks if "code" equals "123", if it does, the value of secret is changed to "super".
 // Another condition is run that checks if "code" is greater than 250. If it is the value of secret is changed to "duper".
-// Finally secret is logged to the console.
+// Finally "super" is logged to the console.
 
 //CODE
 /*
